@@ -1,2 +1,2 @@
 # Single-Class-Java-Programs
-Contains all of the programs that I have developed using Java while in college. 
+Contains all of the Single Class programs that I have developed using Java while in college.
