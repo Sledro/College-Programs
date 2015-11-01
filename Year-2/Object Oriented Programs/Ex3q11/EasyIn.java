@@ -1,4 +1,4 @@
-// EasyIn.java
+/// EasyIn.java
 
 import java.io.*;
 
