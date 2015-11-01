@@ -1,7 +1,7 @@
 /*
 ** Author: DH	Date: October 2015
 ** Purpose: A method introduction
-** Added: A thermometer class
+** Added: A thermometer classS
 */
 
 public class Thermometer
