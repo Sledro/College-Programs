@@ -1,0 +1,36 @@
+body {
+  font-family:      "Courier New", Courier, monospace;
+  font-size:        medium;
+  background-color: black;
+  margin-top:       5%;
+  margin-bottom:    5%;
+  margin-left:      10%;
+  margin-right:     10%;
+  padding:          10px 10px 10px 10px;
+  color: #1ec503;
+}
+
+h1{
+	margin:0px auto;
+}
+
+a:link {
+    text-decoration: none;
+	color: #1ec503;
+}
+
+a:visited {
+    text-decoration: none;
+	color: #1ec503;
+}
+
+a:hover {
+    text-decoration: none;
+	color:#CCC;
+}
+
+a:active {
+    text-decoration: none;
+	color: #1ec503;
+	
+}

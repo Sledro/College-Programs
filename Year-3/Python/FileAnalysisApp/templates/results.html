@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block thebody %}
+    
+	<center>Your Data Has Been Analysed.</center>
+    <p>
+    Tokens from your inputted file - {{tokens}}
+    </p>  
+    <p>
+	----------------------------------------------------------------------------------------------------------------
+	<center>{{dataTakenFromVar}}</center>
+    </p> 	
+	
+{% for result in endL %}
+           
+                {{ result[0] }} ({{ result[1] }}) --> {{ result[2] }} <br />
+           
+{% endfor %}
+
+	
+
+	<p>
+{% for result in notFound %}
+           
+                {{ result[0] }} ({{ result[1] }}) --> was not found in the associations list <br />
+           
+{% endfor %}
+	</p>
+{% endblock %}
+

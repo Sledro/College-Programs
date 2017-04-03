@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block thebody %}
+<center>
+<br /><br />
+	<p>
+		<title>Upload new File</title>
+		<h1>Upload new File</h1>
+		Upload a .txt file below to run a data analysis to check the frequency of words in your file and also to check 
+		your file against our word associations list.<br /><br />
+		
+		<form action='analyse' method=post enctype=multipart/form-data style="border:1px solid #1ec503; width:400px;">
+		  <p><input type=file name=file>
+			 <input type=submit value=Analyse>
+		</form>
+	</p>
+<br /><br />
+<center>
+{% endblock %}

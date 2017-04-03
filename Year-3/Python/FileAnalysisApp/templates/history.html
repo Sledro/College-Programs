@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block thebody %}
+<center>
+<br /><br />
+	<p>
+		<title>File Analysis History</title>
+		<h1>File Analysis History</h1>
+    <p>
+	<center>{{dataTakenFromVar}}</center>
+    </p> 
+		<table style="padding:10px;">
+	  <tr>
+		<th>Filename</th>
+		<th>Upload Date/Time</th>
+		<th>Action</th>
+	</tr>
+		{% for item in dbFiles %}
+		<TR style="padding:10px;">
+		   <TD class="c1" style="padding:10px;">{{item.filename}}</TD>
+		   <TD class="c2" style="padding:10px;">{{item.date}}</TD>
+		   <TD class="c3" style="padding:10px;"><SPAN><a href="./history/{{item.filename}}">View</a></SPAN></TD>
+		   <!--<TD class="c5"><SPAN>{{item.status}}</SPAN></TD>-->
+		</TR>
+		{% endfor %}
+		</table>
+	</p>
+	<br /><br />
+</center>
+{% endblock %}
